@@ -38,3 +38,7 @@ body {
     font-size: 1em;
     text-align: center;
   }
+
+  .nombre-columna {
+    width: 120px; /* Puedes ajustar este valor según tu preferencia */
+}
