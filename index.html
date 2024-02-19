@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabla</title>
+  <title>Linguagens </title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <h2>Tabela</h2>
+  <h2></h2>
 
   <table>
     <thead>
@@ -102,39 +102,109 @@
       </tr>
       <tr>
         <td contenteditable="true">Linguagens compiladas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">As linguagens compiladas são convertidas diretamente na máquina em um código de
+          máquina que o processador pode executar. Como resultado, elas tendem a ser mais rápidas e mais eficientes em
+          sua execução do que as linguagens interpretadas. Elas também dão ao desenvolvedor mais controle sobre alguns
+          aspectos do hardware, como o gerenciamento da memória e o uso da CPU. Exemplos de linguagens compiladas puras
+          são o C, o C++, o Erlang, o Haskell, o Rust e o Go.</td>
+        <td contenteditable="true">
+          <li>Os programas compilados em código de máquina nativo tendem a ser mais rápidos que o código interpretado.
+            Isso ocorre porque o processo de traduzir o código em tempo de execução aumenta o tempo do processo, podendo
+            fazer com que o programa seja, em geral, mais lento.</li>
+        </td>
+        <td contenteditable="true">
+          <li>Tempo adicional necessário para concluir toda a etapa de compilação antes dos testes</li>
+          <br>
+          <li>Dependência da plataforma do código binário gerado</li>
+        </td>
       </tr>
       <tr>
         <td contenteditable="true">Linguagens interpretadas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">Os interpretadores passam por um programa linha por linha e executam cada comando.
+          Aqui, se o autor decidir que quer usar um tipo diferente de óleo de oliva, só precisaria remover o antigo e
+          adicionar o novo. Seu amigo tradutor poderia informar isso a você quando a mudança acontecesse. Linguagens
+          interpretadas, antigamente, eram significativamente mais lentas do que as linguagens compiladas. Porém, com o
+          desenvolvimento da compilação just-in-time, essa distância vem diminuindo.Exemplos de linguagens interpretadas
+          comuns são o PHP, o Ruby, o Python e o JavaScript.</td>
+        <td contenteditable="true">
+          <li>As linguagens interpretadas tendem a ser mais flexíveis, geralmente oferecendo recursos como digitação
+            dinâmica e tamanho reduzido de programa. Além disso, como os interpretadores executam o código fonte do
+            programa por conta própria, o código não depende da plataforma.</li>
+        </td>
+        <td contenteditable="true">
+          <li>A desvantagem mais notável é a velocidade típica de execução em comparação com as linguagens compiladas.
+          </li>
+        </td>
       </tr>
       <tr>
         <td contenteditable="true">Linguagens híbridas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">O método híbrido, representa um meio termo entre os compiladores e os
+          interpretadores. Ele traduz (compila) os programas em linguagem de alto nível para uma linguagem intermediária
+          projetada para facilitar a interpretação. Depois, usa um interpretador. Os Sistemas de implementação híbridos
+          são mais rápidos do que a interpretação pura pelo fato de trabalharem com a etapa de compilação, porque as
+          sentenças da linguagem fonte são decodificadas apenas uma vez. Em um interpretador puro, todas as linhas são
+          interpretadas em todas as vezes que o programa é rodado. No modelo híbrido, o código compilado pode ser
+          reutilizado, por isso algumas partes do código-fonte são decodificadas apenas uma vez, evitando repetir a
+          mesma operação nas versões seguintes. Exemplos de linguagens híbridas:C#, VB.NET e Java.</td>
+        <td contenteditable="true">
+          <li>Detecção precoce dos erros.</li>
+          <br>
+          <li>Eficiência (Ver o vídeo baixado de uma live é mais eficiência do que ver a live ao vivo.)</li>
+        </td>
+        <td contenteditable="true">
+          <li>Menos eficiente que as compiladas.</li>
+        </td>
       </tr>
       <tr>
         <td contenteditable="true">Linguagens nativas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">O desenvolvimento nativo é aquele que visa criar um software/aplicativo para uma
+          plataforma específica, como Android, Windows ou iOS. Isso não se aplica apenas a programas destinados a
+          smartphones e tablets, mas também a qualquer outro dispositivo que possa apresentar sistemas operacionais
+          distintos (PCs e demais gadgets). Como exemplo um mesmo aplicativo que roda em iOS e Android, poderíamos dizer
+          que, em princípio, estamos falando de dois apps diferentes, pois todo o código por trás é feito sobre as
+          exigências da plataforma</td>
+        <td contenteditable="true">
+          <li>Performance, segurança e suporte da plataforma, por se tratar de linguagens de programação
+            recomendadas por exemplo pelo google ou pela apple, vai ter uma grande vantagem em relação a segurança dos
+            aplicativos</li>
+        </td>
+        <td contenteditable="true">
+          <li>Maior tempo de desenvolvimento, já que será necessário programar duas vezes o app, em cada linguagem
+            específica. Isso leva também a um custo mais elevado para o desenvolvimento, pois será necessária uma equipe
+            maior de desenvolvedores e com conhecimentos nas linguagens citadas acima.</li>
+        </td>
       </tr>
       <tr>
         <td contenteditable="true">Linguagens dinâmicas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">Linguagem dinâmica, também conhecida como linguagem de scripting, ainda é algo
+          obscuro para a grande maioria dos desenvolvedores. Entender e aplicar seus conceitos é algo que pode causar
+          espanto e muitas dúvidas. Porém, é importante conhecer as vantagens e destantagens deste tipo de linguagem,
+          saber quando é válido ou não a sua utilização no desenvolvimento de sistemas. Exemplos de linguagens de
+          tipagem dinâmica são Python, Ruby, JavaScript e PHP.</td>
+        <td contenteditable="true">
+          <li>A grande vantagem é a possibilidade de alterar o meta objeto em tempo de execução e adicionar novas
+            funcionalidades nos objetos.</li>
+        </td>
+        <td contenteditable="true">
+          <li>Desvantagens das linguagens dinâmicas: Manutenção de código mais difícil em projetos grandes e complexos.
+            Entre outras.</li>
+        </td>
       </tr>
       <tr>
         <td contenteditable="true">Linguagens estáticas</td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
-        <td contenteditable="true"></td>
+        <td contenteditable="true">Linguagens estáticas não permitem ao desenvolvedor alterar o tipo da
+          variável depois de declarada. Geralmente a verificação de tipo é feita em tempo de compilação. Exemplos :C++,
+          Java, C#, Go (Golang), Swift, Rust e Haskell. </td>
+        <td contenteditable="true">
+          <li>Segurança, performance e auxílio em tempo de desenvolvimento (refatoração, completação de código,
+            informação auxiliar, cobertura de código etc.).</li>
+        </td>
+        <td contenteditable="true">
+          <li>Curva de aprendizado muitas vezes íngreme, especialmente em linguagens com sistemas de tipos complexos.
+            Isso pode dificultar a entrada de novos programadores. Além disso, a rigidez na tipagem estática pode ser
+            vista como restritiva por alguns desenvolvedores, limitando sua flexibilidade e agilidade no desenvolvimento
+            de software.</li>
+        </td>
       </tr>
     </tbody>
   </table>
