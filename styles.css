@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 30px;
+    min-height: 00vh; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.945);
+  }
+  
+  th {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  h3 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .nombre-columna {
+    width: 120px; /* Puedes ajustar este valor según tu preferencia */
+}
